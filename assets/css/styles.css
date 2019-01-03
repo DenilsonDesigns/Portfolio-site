@@ -183,8 +183,8 @@ header nav li {
 }
 
 .card-img {
-  height: 150px;
-  width: 160px;
+  height: 160px;
+  width: 180px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -197,7 +197,7 @@ header nav li {
 }
 
 .repo-card {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .repo-card h2 {
@@ -228,7 +228,7 @@ header nav li {
 }
 .icons i,
 .icons img {
-  margin: 5px 5px;
+  margin: 5px 5px 20px 5px;
 }
 .blue {
   color: rgb(95, 95, 241);
@@ -260,6 +260,14 @@ header nav li {
   margin: 40px 0 25px;
 }
 
+.testimonials-images {
+  align-content: center;
+}
+.testimonials-images img {
+  display: block;
+  margin: 20px auto 50px;
+}
+
 /* Contact section */
 .contact form {
   display: flex;
@@ -278,6 +286,11 @@ header nav li {
   font-size: 18px;
   color: #555;
   flex: 1;
+}
+
+.contact-links li {
+  margin: 0 10px;
+  display: inline;
 }
 
 /* Footer section */
@@ -303,6 +316,10 @@ footer p {
   font-size: 14px;
   opacity: 0.6;
   align-self: center;
+}
+
+.dark-blue {
+  color: darkblue;
 }
 
 @media (max-width: 800px) {
@@ -350,10 +367,14 @@ footer p {
   .destinations .grid li.small,
   .destinations .grid li.large {
     flex-basis: 100%;
+    margin-bottom: 50px;
   }
   .packages .grid li {
     flex-basis: 100%;
     padding: 20px;
+  }
+  .icons {
+    margin-bottom: 50px;
   }
   .testimonials .quote {
     font-size: 18px;
