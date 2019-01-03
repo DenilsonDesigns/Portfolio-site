@@ -184,10 +184,16 @@ header nav li {
 
 .card-img {
   height: 150px;
-  width: 150px;
+  width: 160px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+}
+
+.card-img:hover {
+  transform: scale(1.15);
 }
 
 .repo-card {
