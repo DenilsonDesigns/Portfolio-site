@@ -382,12 +382,8 @@ footer p {
   .repo-card {
     margin-bottom: 120px;
   }
-  .testimonials .quote {
-    font-size: 18px;
-    margin: 15px 0;
-  }
-  .testimonials .author {
-    font-size: 14px;
+  .testimonials-images img {
+    max-width: 450px;
   }
 }
 
