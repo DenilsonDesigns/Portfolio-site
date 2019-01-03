@@ -364,17 +364,23 @@ footer p {
   }
 }
 @media (max-width: 800px) {
+  .title {
+    margin-top: 50px;
+  }
+  h2 {
+    margin-top: 20px;
+  }
   .destinations .grid li.small,
   .destinations .grid li.large {
     flex-basis: 100%;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
   }
   .packages .grid li {
     flex-basis: 100%;
     padding: 20px;
   }
-  .icons {
-    margin-bottom: 50px;
+  .repo-card {
+    margin-bottom: 120px;
   }
   .testimonials .quote {
     font-size: 18px;
